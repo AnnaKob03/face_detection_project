@@ -21,14 +21,14 @@
 
 ```bash
 docker build -t face_detection_app .
-
+```
 ### Запуск контейнера локально
 
 Чтобы запустить контейнер с вашим приложением, используйте следующую команду:
 
 ```bash
 docker run --rm -v "%cd%:/app" face_detection_app
-
+```
 #### Использование образа с DockerHub
 
 Вы можете скачать и запустить образ напрямую с DockerHub, используя следующие команды:
@@ -36,3 +36,4 @@ docker run --rm -v "%cd%:/app" face_detection_app
 ```bash
 docker pull annakob03/face_detection:latest
 docker run --rm annakob03/face_detection:latest
+```
