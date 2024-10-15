@@ -1,0 +1,4 @@
+# Сборка Docker-образа
+docker build -t face_detection_app . 
+# Запуск контейнера
+docker run --rm -v "%cd%:/app" face_detection_app
